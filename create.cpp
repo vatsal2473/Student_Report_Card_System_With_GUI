@@ -18,6 +18,18 @@ Create::~Create()
     delete ui;
 }
 
+void Create::clearscreen()
+{
+    ui->txtfirstname->setText("");
+    ui->txtlastname->setText("");
+    ui->txtrollno->setText("");
+    ui->txtphysics->setText("");
+    ui->txtchemistry->setText("");
+    ui->txtmaths->setText("");
+    ui->txtcomputer->setText("");
+
+}
+
 void Create::on_btnAdd_clicked()
 {
     QString firstname = ui->txtfirstname->text();

@@ -18,6 +18,11 @@ Delete_report::~Delete_report()
     delete ui;
 }
 
+void Delete_report::clearscreen()
+{
+    ui->lineEdit_rollno->setText("");
+}
+
 void Delete_report::on_pushButton_clicked()
 {
     QString rollno = ui->lineEdit_rollno->text();

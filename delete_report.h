@@ -14,6 +14,7 @@ class Delete_report : public QDialog
 public:
     explicit Delete_report(QWidget *parent = nullptr);
     ~Delete_report();
+    void clearscreen();
 
 private slots:
     void on_pushButton_clicked();

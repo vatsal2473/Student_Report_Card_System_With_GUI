@@ -17,8 +17,15 @@ Search_report::~Search_report()
     delete ui;
 }
 
+void Search_report::clearscreen()
+{
+    ui->lineEdit_rollno->setText("");
+    ui->txt_info->setText("");
+}
+
 void Search_report::on_pushButton_clicked()
 {
+
     QString rollno = ui->lineEdit_rollno->text();
 
 

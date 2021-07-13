@@ -14,6 +14,7 @@ class Search_report : public QDialog
 public:
     explicit Search_report(QWidget *parent = nullptr);
     ~Search_report();
+    void clearscreen();
 
 private slots:
     void on_pushButton_clicked();

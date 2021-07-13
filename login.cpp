@@ -18,8 +18,16 @@ Login::~Login()
     //delete ptrmainwindow;
 }
 
+void Login::clearscreen()
+{
+    ui->lineEdit_username->setText("");
+    ui->lineEdit_password->setText("");
+}
+
 void Login::on_pushButton_clicked()
 {
+    //ui->lineEdit_username->setText("");
+    //ui->lineEdit_password->setText("");
     QString username = ui->lineEdit_username->text();
     QString password = ui->lineEdit_password->text();
 

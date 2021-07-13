@@ -21,6 +21,7 @@ Student::~Student()
 
 void Student::on_pushButton_2_clicked()
 {
+    ptrsearch->clearscreen();
     ptrsearch->show();
 }
 

@@ -19,6 +19,7 @@ Show_all_report::~Show_all_report()
 
 void Show_all_report::show_reports()
 {
+    ui->txtshowall->setPlainText("");
     QFile file1("C:/Users/ABCD/Documents/Student_Report_Card_System/report.txt");
 
     if(!file1.open(QFile::ReadOnly | QFile::Text))

@@ -17,6 +17,17 @@ Edit_report::~Edit_report()
     delete ui;
 }
 
+void Edit_report::clearscreen()
+{
+    ui->txtfirstname->setText("");
+    ui->txtlastname->setText("");
+    ui->txtrollno->setText("");
+    ui->txtphysics->setText("");
+    ui->txtchemistry->setText("");
+    ui->txtmaths->setText("");
+    ui->txtcomputer->setText("");
+}
+
 void Edit_report::on_btnAdd_clicked()
 {
     QString firstname = ui->txtfirstname->text();

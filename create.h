@@ -14,6 +14,7 @@ class Create : public QDialog
 public:
     explicit Create(QWidget *parent = nullptr);
     ~Create();
+    void clearscreen();
 
 private slots:
     void on_btnAdd_clicked();

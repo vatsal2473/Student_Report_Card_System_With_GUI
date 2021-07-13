@@ -31,24 +31,28 @@ void Admin::on_pushButton_6_clicked()
 
 void Admin::on_pushButton_clicked()
 {
+    ptrcreate->clearscreen();
     ptrcreate->show();
 }
 
 
 void Admin::on_pushButton_3_clicked()
 {
+    ptredit->clearscreen();
     ptredit->show();
 }
 
 
 void Admin::on_pushButton_4_clicked()
 {
+    ptrdelete->clearscreen();
     ptrdelete->show();
 }
 
 
 void Admin::on_pushButton_5_clicked()
 {
+    ptrsearch->clearscreen();
     ptrsearch->show();
 }
 

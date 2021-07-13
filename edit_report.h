@@ -14,6 +14,7 @@ class Edit_report : public QDialog
 public:
     explicit Edit_report(QWidget *parent = nullptr);
     ~Edit_report();
+    void clearscreen();
 
 private slots:
     void on_btnAdd_clicked();
