@@ -42,11 +42,15 @@ List of Header file, Source file and .ui Files used in the Project are as follow
 Student_Report_Card_System.pro
 
 ##########################################################
+
 For Running the system you have to download all the above files and store it in a folder
 After that you need to open it in Qt-creator and then you can run the system
+
 ##########################################################
+
 Download Qt from below link :
 https://www.qt.io/download-open-source
+
 ##########################################################
 
 
