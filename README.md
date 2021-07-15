@@ -66,4 +66,5 @@ you have to change in path in these files :
 
 for example in create.cpp
 QFile file1("C:/Users/ABCD/Documents/Student_Report_Card_System/report.txt");   is written
+
 you have to change the location according to your path
