@@ -53,4 +53,17 @@ https://www.qt.io/download-open-source
 
 ##########################################################
 
+IMPORTANT :
 
+If there comes some error on running the program in qt then you have to change the path of the text file because in every pc the path is different
+
+you have to change in path in these files :
+1. search_report.cpp
+2. create.cpp
+3. edit_report.cpp
+4. delete_report.cpp
+5. show_all_report.cpp
+
+for example in create.cpp
+QFile file1("C:/Users/ABCD/Documents/Student_Report_Card_System/report.txt");   is written
+you have to change the location according to your path
